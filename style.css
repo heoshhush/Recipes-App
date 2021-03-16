@@ -1,0 +1,125 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:0;
+}
+button{
+    all:unset;
+    cursor: pointer;
+}
+header{
+    width:50vw;
+    height: 100px;
+    background: rgb(234,234,246);
+    background: linear-gradient(90deg, rgba(234,234,246,1) 1%, rgba(235,208,235,1) 26%, rgba(0,212,255,1) 100%);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.searchBar{
+    width: 70%;
+    padding-left: 3rem;
+}
+.runSearchBtn{
+    font-size:24px;
+    margin-left:5px;
+}
+
+.searchInput{
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    width: 80%;
+    height: 2rem;
+}
+section{
+    display:flex;
+    flex-direction: column;
+}
+.favorites{
+    min-height:250px;
+    width:50vw;
+    background-color: #eaeaf6;
+    margin-bottom:0;
+}
+.favorites h3{
+    padding:20px;
+    text-align:center;
+    font-size:40px;
+    color:darkmagenta;
+    margin:0;
+    letter-spacing: 3px;
+    font-family:'Times New Roman', Times, serif;
+}
+.favoriteList{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height:150px;
+    background-color:transparent;
+    list-style: none;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.favoriteCard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    height: 50%;
+}
+.favoriteName{
+    margin-top:0.3rem;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+.favorThumbNail{
+    width:80px;
+    height:80px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+article{
+    width: 50vw;
+    background-color:#ebd0eb;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.itemList{
+    width:80%;
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+
+    margin:0;
+}
+.itemCard{
+    background: white;
+    width:100%;
+    border-radius:10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2rem;
+}
+.thumbNail{
+    width: 100%;
+    border-radius:10px 10px 0px 0px;
+}
+.itemNameAndFavBtn{
+    padding: 1rem 2rem 1rem 2rem;
+}
+.itemName{
+    display:inline-block;
+    font-size:35px;
+    width:90%;
+}
+.favoriteBtn{
+    position:relative;
+    font-size:24px;
+    color:lightgray;
+}
+.favClicked{
+    color: red;
+}
